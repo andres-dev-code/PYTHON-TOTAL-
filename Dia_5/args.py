@@ -5,3 +5,5 @@ def suma(*args):
     return total
 
 print(suma(1,2,3,4,5))
+
+

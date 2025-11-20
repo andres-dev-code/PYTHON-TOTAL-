@@ -43,3 +43,28 @@ def probar_suerte(resultado,lista):
 y = probar_suerte(a,lista_numeros)
 print(y)
 
+def saludar(nombre):
+    if nombre == 'Castro':
+        return 'Hola Castro!'
+    else:
+        return 'No se tu nombre'
+
+print(saludar('Castro'))
+
+def saludar_otro_nombre(nombre):
+    if nombre != 'Castro':
+        return f'Hola {nombre}!'
+    else:
+        return 'Yo ya te salude!'
+
+print(saludar_otro_nombre('Castro'))
+
+
+def sumar(num1,num2):
+    return num1 + num2
+print(sumar(3,2))
+
+def multiplicar(num1,num2):
+    return num1 * num2
+
+print(multiplicar(sumar(3,2),5))
